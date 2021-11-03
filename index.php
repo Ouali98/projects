@@ -80,9 +80,6 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
             <li class="nav-item">
               <a class="nav-link" href="#uu"><?php echo $top_nav[$language]['4']?></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact"><?php echo $top_nav[$language]['5']?></a>
-            </li>
              <!--Dropdown 2-->
             <div class="dropdown nav-item mx-0 ">
               <button class="btn globe2 bi bi-globe2 rounded-pill " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
